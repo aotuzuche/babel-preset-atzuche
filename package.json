@@ -1,12 +1,12 @@
 {
   "name": "babel-preset-atzuche",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "repository": "git@github.com:aotuzuche/babel-preset-atzuche.git",
   "license": "MIT",
   "author": "shao <darryshaw@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "publish": "np",
+    "release": "np",
     "test": "npm run lint",
     "lint": "eslint ."
   },
@@ -43,5 +43,8 @@
     "eslint-config-atzuche": "^0.0.15",
     "np": "^5.2.1",
     "prettier": "^1.19.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
