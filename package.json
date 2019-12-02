@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-atzuche",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": "git@github.com:aotuzuche/babel-preset-atzuche.git",
   "license": "MIT",
   "author": "shao <darryshaw@gmail.com>",
