@@ -6,7 +6,7 @@
   "author": "shao <darryshaw@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "release": "np",
+    "release": "np --no-cleanup",
     "test": "npm run lint",
     "lint": "eslint ."
   },
