@@ -11,7 +11,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@babel/core": "^7.4.3",
+    "@babel/core": "^7.7.5",
     "@babel/helper-plugin-utils": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/plugin-proposal-decorators": "^7.4.0",
@@ -25,14 +25,14 @@
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.3",
     "@babel/plugin-proposal-numeric-separator": "^7.2.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
-    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
     "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
     "@babel/plugin-proposal-throw-expressions": "^7.2.0",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-import-meta": "^7.2.0",
-    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.7.5",
     "@babel/polyfill": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-env": "^7.7.5",
     "@babel/preset-react": "^7.0.0",
     "babel-plugin-import": "^1.11.0",
     "babel-plugin-react-css-modules": "^5.2.4"
