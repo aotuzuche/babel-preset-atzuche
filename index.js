@@ -10,7 +10,7 @@ module.exports = declare((api, options) => {
         require('@babel/preset-env'),
         {
           useBuiltIns: 'usage',
-          modules: 'commonjs',
+          corejs: 3,
         },
       ],
       require('@babel/preset-react'),
