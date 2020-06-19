@@ -24,6 +24,15 @@ module.exports = declare((api, options) => {
           libraryName: 'antd',
           style: 'css',
         },
+        'antd',
+      ],
+      [
+        require('babel-plugin-import'),
+        {
+          libraryName: 'at-console-components',
+          style: 'css',
+        },
+        'at-console-components',
       ],
       [
         require('babel-plugin-react-css-modules'),
