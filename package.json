@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "eslint": "^7.5.0",
-    "eslint-config-atzuche": "^0.0.15",
+    "eslint-config-atzuche": "^2.0.0",
     "np": "^5.2.1",
     "prettier": "^1.19.1"
   },
