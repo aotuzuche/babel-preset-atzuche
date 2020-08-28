@@ -35,6 +35,22 @@ module.exports = declare((api, options) => {
         'at-console-components',
       ],
       [
+        require('babel-plugin-import'),
+        {
+          libraryName: 'auto-ui',
+          libraryDirectory: 'es',
+        },
+        'auto-ui',
+      ],
+      [
+        require('babel-plugin-import'),
+        {
+          libraryName: 'react-use',
+          camel2DashComponentName: false,
+        },
+        'react-use',
+      ],
+      [
         require('babel-plugin-react-css-modules'),
         {
           generateScopedName: '[local]_[hash:base64:6]',
