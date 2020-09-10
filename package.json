@@ -8,7 +8,8 @@
   "scripts": {
     "release": "np --no-cleanup",
     "test": "npm run lint",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepublishOnly": "yarn lint && np --no-cleanup --yolo --no-publish"
   },
   "dependencies": {
     "@babel/core": "^7.11.4",

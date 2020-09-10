@@ -60,6 +60,7 @@ module.exports = declare((api, options) => {
             },
           },
           handleMissingStyleName: 'ignore',
+          autoResolveMultipleImports: true,
         },
       ],
       require('@babel/plugin-syntax-dynamic-import'),
