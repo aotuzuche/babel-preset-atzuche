@@ -11,6 +11,7 @@ module.exports = declare((api, options) => {
         {
           useBuiltIns: 'usage',
           corejs: 3,
+          shippedProposals: true,
         },
       ],
       require('@babel/preset-react'),
