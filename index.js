@@ -1,4 +1,7 @@
 const { declare } = require('@babel/helper-plugin-utils')
+const genericNames = require('generic-names')
+
+const CSS_MODULE_LOCAL_IDENT_NAME = '[local]_[hash:base64:6]'
 
 module.exports = declare((api, options) => {
   // see docs about api at https://babeljs.io/docs/en/config-files#apicache
@@ -54,7 +57,7 @@ module.exports = declare((api, options) => {
       [
         require('babel-plugin-react-css-modules'),
         {
-          generateScopedName: '[local]_[hash:base64:6]',
+          generateScopedName: genericNames(CSS_MODULE_LOCAL_IDENT_NAME, { context: process.cwd() }),
           filetypes: {
             '.mcss': {
               syntax: 'postcss-scss',

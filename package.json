@@ -37,7 +37,9 @@
     "@babel/preset-react": "^7.10.4",
     "babel-plugin-import": "^1.11.0",
     "babel-plugin-react-css-modules": "^5.2.4",
-    "core-js": "^3.6.5"
+    "core-js": "^3.6.5",
+    "generic-names": "^3.0.0",
+    "postcss-scss": "^3.0.4"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
